@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  background-color: #E7E0CB; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: #333; }
+
+h1 {
+  font-size: 2em;
+  text-align: center; }
+
+#chart {
+  position: absolute; }
+
+svg {
+  display: block;
+  background-color: #000;
+  margin: 0 auto; }
+
+img {
+  position: absolute; }
+
+footer {
+  position: relative;
+  top: 810px;
+  color: #333; }
+  footer p {
+    text-align: center;
+    font-size: 0.9em; }
+
+/*# sourceMappingURL=style.css.map */

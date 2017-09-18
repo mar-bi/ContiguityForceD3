@@ -1,0 +1,47 @@
+//variables
+$link_color: #333;
+$svg_background: #000;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+//general style
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 16px;
+	background-color: #E7E0CB;
+}
+
+a {
+	text-decoration: none;
+	&:visited {
+		color: $link_color; 
+	}
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#chart {
+	position: absolute;
+}
+
+svg {
+	display: block;
+	background-color: $svg_background;
+	margin: 0 auto;
+}
+
+img {
+	position: absolute;
+}
+
+footer {
+	position: relative;
+	top: 810px;
+	color: $link_color;
+	p {
+		text-align: center;
+		font-size: 0.9em;
+	}
+}
